@@ -1,0 +1,86 @@
+/* imports fonts to be used in the code for the webpage.*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Langar&family=Lobster&family=Montserrat:wght@100&family=Satisfy&display=swap');
+
+
+/* Changes the text color , font. */
+
+p, ol, ul {
+text-align: center;
+font-family: 'Courgette', cursive;
+font-size: 30px;
+color: #ffffff;
+}
+
+body{
+background-color: #000000;
+margin: 0px;
+}
+
+li, h4 {
+font-size: 30px;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+color: #ffffff;
+}
+
+footer {
+border: 1px solid #fff;
+margin: 100px;
+height: 30px;
+padding: 5px;
+background-color: #000000;
+}
+
+/* makes the paragraph text in the footer light blue. */
+
+footer.h3 {
+font-size: 20px!important;
+height: 20px;
+text-align: center;
+color: #ffffff!important;
+}
+
+h1 {
+text-align: center;
+font-size: 50px;
+font-family: 'Lobster', cursive;
+color: #ffffff;
+}
+
+h2, h3 {
+text-align: center;
+font-family: 'Satisfy', cursive;
+font-size: 35px;
+color: #ffffff!important;
+}
+
+img {
+border-radius: 30px;
+}
+
+.color-pop {
+color: #ffff00;
+}
+
+.list-inside li, ul {
+list-style-position: inside;
+}
+
+/* changing the image position */
+
+.imageContainer {
+text-align: center;
+}
+/* link style colors with pseudo classes */
+a:link { color: #ffffff; 
+}
+
+a:visited { color:#ffff00
+}
+
+a:hover { color: rgba(255,191,74,0.884)
+}
+
+a:active { color: #d600ff}
+
