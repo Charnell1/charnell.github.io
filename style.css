@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Langar&family=Lobster&family=Montserrat:wght@100&display=swap')
+
+html {
+box-sizing: border-box
+}
+
+
+
+/*Makes all text white */
+p, ol, ul {
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-size: 24px;
+color: #ffffff;
+}
+/*Changes the background to assigned color.*/
+body{
+background-color: #999999;
+}
+
+li {
+text-align: center;
+font-family: 'Dancing Script', cursive;
+}
+
+footer {
+margin: 10px;
+height: 30px;
+background-color: #676767;
+}
+
+/* makes the paragraph text in the footer light blue. */
+footer > p {
+text-align: center;
+color: #15dbe4!important;
+}
+
+h1, h2 h3 {
+text-align: center;
+font-size: 50px;
+color:  #b9d3ee;
+font-family: 'Lobster', cursive;
+color: #ffffff;
+}
