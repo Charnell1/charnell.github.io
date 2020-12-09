@@ -1,0 +1,49 @@
+html {
+box-sizing: 'border-box'
+}
+
+@import url(https://fonts.google.com/specimen/Montserrat)
+
+@import url(https://fonts.google.com/specimen/Dancing+Script)
+
+@import url(https://fonts.google.com/specimen/Lobster)
+
+/*Makes all headers more apparent with color, font size, text alignment.*/
+
+main > section {
+margin: 20px
+height: 40px
+}
+
+h1, h2, h3 {
+text-align: 'center'
+font-size: 30px
+color:  #b9d3ee
+font-family: 'Lobster'
+color: #ffffff
+}
+/*Makes all text white */
+p, ol, ul {
+text-align: 'center'
+font-family: 'Montserrat'
+font-size: 24px
+color: #ffffff
+}
+/*Changes the background to assigned color.*/
+body{
+background-color: #999999
+}
+
+li {
+text-align: 'center'
+font-family: 'Dancing Script'
+
+footer {
+margin: 10px
+height: 30px
+background-color: #676767
+}
+/* makes the paragraph text in the footer light blue. */
+footer > p {
+color: #15dbe4!important
+}
